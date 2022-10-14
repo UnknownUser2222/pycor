@@ -1,5 +1,5 @@
 print("Requires Python 3.10.0 or later.")
-print("Welcome to the PyCor v1.00.0")
+print("Welcome to the PyCor v1.01.0")
 print("Type help_pycor for help.")
 x = ""
 while x != "0":
@@ -12,15 +12,23 @@ while x != "0":
         print("add_key - Adds a key to the registry")
         print("add_python_key - Adds a Python variable if an 'object' does not work")
         print("add_script - Adds a Python script")
+        print("remove_object - Removes an object.")
+        print("remove_python_key - Deletes a Python key.")
     elif x == str("add_script"):
         input("Function name: ")
         input("Function code: {__one_line_script: ")
         print("Script saved successfully")
+    elif x == str("remove_object"):
+        input("Name: ")
+        print("Successfully removed object")
     elif x == str("add_python_key"):
         print("Python keys can be useful if an 'object' does not work.")
         input("Name: ")
         input("Value: ")
         print("Successfully added Python key")
+    elif x == str("remove_python_key"):
+        input("Name: ")
+        print("Successfully deleted")
     elif x == str("list_objects"):
         print(cmd1)
     elif x == str("add_key"):
