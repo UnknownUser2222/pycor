@@ -11,6 +11,11 @@ while x != "0":
         print("list_objects - Shows the list of objects")
         print("add_key - Adds a key to the registry")
         print("add_python_key - Adds a Python variable if an 'object' does not work")
+        print("add_script - Adds a Python script")
+    elif x == str("add_script"):
+        input("Function name: ")
+        input("Function code: {__one_line_script: ")
+        print("Script saved successfully")
     elif x == str("add_python_key"):
         print("Python keys can be useful if an 'object' does not work.")
         input("Name: ")
