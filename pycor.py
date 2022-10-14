@@ -9,18 +9,31 @@ while x != "0":
     if x == str("help_pycor"):
         print("add_object - Adds a object to the list")
         print("list_objects - Shows the list of objects")
+        print("add_key - Adds a key to the registry")
+        print("add_python_key - Adds a Python variable if an 'object' does not work")
+    elif x == str("add_python_key"):
+        print("Python keys can be useful if an 'object' does not work.")
+        input("Name: ")
+        input("Value: ")
+        print("Successfully added Python key")
     elif x == str("list_objects"):
         print(cmd1)
+    elif x == str("add_key"):
+        input1 = input("WARNING: Adding keys without a reason might require a reinstall. Are you sure do you want to continue? ([Y]es or [N]o)")
+        if input1 == "Y":
+           key_name =  input("Key name: ")
+           key_type = input("Key type: ")
+           key_value = input("Key value: ")
+           print("Key " + key_name + " with type " + key_type + " as " + key_value + " successfully added to registry")
     elif x == str("add_object"):
 
         cmd2_1 = input("Name: ")
         cmd2_2 = input("Value: ")
         print("Successfully added to dictionary")
-        cmd1.replace(str(cmd2_1), "PyCor Objects: null")
         print(cmd1)
     elif x == str(""):
      False
     else:
-        print("This term is not a command, script, object or file.")
+        print("This term is not a command or a script. Please check if you have any typos in the scripts you typed.")
 
 
