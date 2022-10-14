@@ -1,12 +1,15 @@
 print("Requires Python 3.10.0 or later.")
 print("Welcome to the PyCor v1.00.0")
-print("Type HELP_PYCOr for help.")
+print("Type help_pycor for help.")
 x = ""
 while x != "0":
     x = input(">> ")
 
     cmd1 = "PyCor Objects: In device's memory. Will reset when restarted"
-    if x == str("list_objects"):
+    if x == str("help_pycor"):
+        print("add_object - Adds a object to the list")
+        print("list_objects - Shows the list of objects")
+    elif x == str("list_objects"):
         print(cmd1)
     elif x == str("add_object"):
 
