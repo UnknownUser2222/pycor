@@ -20,9 +20,13 @@ while x != "0":
         print("add_pycor_variable - Adds a PyCor variable.")
         print("add_jscript_variable - Adds a JavaScript variable")
         print("remove_python_object - Removes a Python object")
-        print("client_redirect_host - Redirects to host server.")
-        print("connect_to_github_server - Connects to a GitHub repository.")
+        print("client_redirect_host - Redirects to host server")
+        print("connect_to_github_server - Connects to a GitHub repository")
+        print("drive_change - Changes the disk drive directory")
         print("More coming soon in v1.02.0!")
+    elif x == str("drive_change"):
+        drive = input("Drive letter: ")
+        print("Changed from this directory to " + drive)
     elif x == str("connect_to_github_server"):
         input("Name of repo: ")
         input("Owner or organization: ")
@@ -89,3 +93,5 @@ while x != "0":
 
     else:
         print("This term is not a command or a script. Please check if you have any typos in the scripts you typed.")
+
+

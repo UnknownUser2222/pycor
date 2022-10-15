@@ -1,0 +1,12 @@
+{
+  "name": "pycor",
+  "version": "12.01",
+  "description": "The official PyCor code package, ready for you to create efficient ideas.",
+  "modules": {
+    "github": [
+      "UnknownUser2222/pycor"
+    ]
+  },
+  "jetbrains_version": 2022.2,
+  "npm": true
+}
