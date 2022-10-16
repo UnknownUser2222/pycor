@@ -4,7 +4,7 @@ Developed by UnknownUser2222 and collaborated with others, we are working hard d
 The software is based on Python 3.10.8 and with other optional files.
 
 # Product specs
-### Version: 1.01.6 // Build 1002
+### Version: 1.02.0 // Build 1003
 ### Plan: Free
 ### Program files: C:/Users/Your User/Downloads/
 ### OS: Windows 10/11
