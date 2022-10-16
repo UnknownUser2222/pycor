@@ -1,5 +1,5 @@
 print("Requires Python 3.10.8 or later.")
-print("Welcome to the PyCor v1.01.0")
+print("Welcome to the PyCor v1.02.0")
 print("Type help_pycor for help.")
 x = ""
 while x != "0":
@@ -7,6 +7,7 @@ while x != "0":
 
     cmd1 = "PyCor Objects: In device's memory. Will reset when restarted"
     if x == str("help_pycor"):
+        print("Note: Most commands was imported from v1.01.6 Build 1002 but it still counts")
         print("add_object - Adds a object to the list")
         print("list_objects - Shows the list of objects")
         print("add_key - Adds a key to the registry")
@@ -23,7 +24,19 @@ while x != "0":
         print("client_redirect_host - Redirects to host server")
         print("connect_to_github_server - Connects to a GitHub repository")
         print("drive_change - Changes the disk drive directory")
-        print("More coming soon in v1.02.0!")
+        print("list_version - Shows all the versions of the program installed")
+        print("change_program_cmds - Changes the commands of the program (except current built-in commands)")
+
+    elif x == str("list_version"):
+        print("Version: 1.02.0 Build 1003")
+    elif x == str("change_program_cmds"):
+        file_name = input("Name of extension/PCR file: ")
+        directory = input("Directory: ")
+        print("Enabling " + file_name + "'s features...")
+        print("Disabling current commands (except PyCor commands)...")
+        print("Checking version of file...")
+        print("Enabling commands...")
+        print("Successfully switched program mode")
     elif x == str("drive_change"):
         drive = input("Drive letter: ")
         print("Changed from this directory to " + drive)
@@ -93,5 +106,3 @@ while x != "0":
 
     else:
         print("This term is not a command or a script. Please check if you have any typos in the scripts you typed.")
-
-
