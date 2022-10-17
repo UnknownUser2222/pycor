@@ -6,7 +6,7 @@ The software is based on Python 3.10.8 and with other optional files.
 # Product specs
 ### Version: 1.02.0 // Build 1003
 ### Plan: Free
-### Program files: C:/Users/Your User/Downloads/
+### Program files: C:/Program Files (x86)/PyCor
 ### OS: Windows 10/11
 ### Verified organization: PyCor
 ### Verified owner: UnknownUser2222 (GitHub)
