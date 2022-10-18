@@ -4,7 +4,7 @@ Developed by UnknownUser2222 and collaborated with others, we are working hard d
 The software is based on Python 3.10.8 and with other optional files.
 
 # Product specs
-### Version: 1.02.0 // Build 1003
+### Version: 1.02.7 // Build 1006
 ### Plan: Free
 ### Program files: C:/Program Files (x86)/PyCor
 ### OS: Windows 10/11
