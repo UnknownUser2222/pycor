@@ -5,7 +5,7 @@ The software is based on Python 3.10.8 and with other optional files.
 Updates every week
 
 # Product specs
-### Version: 1.02.7 // Build 1006
+### Version: Server // Build 1008
 ### Plan: Free
 ### Program files: C:/Program Files (x86)/PyCor
 ### OS: Windows 10/11
