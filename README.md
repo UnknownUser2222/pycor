@@ -18,3 +18,4 @@ Updates every week
 ### For consumer inquiries: userunamed981@gmail.com
 ### For developer inquiries: adibsreviews@gmail.com
 ### ***Note that these emails are created by our collaborators. If you want to contact the official email, contact us at userunamed981@gmail.com because this email was created by the owner.***
+
