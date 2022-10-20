@@ -1,5 +1,5 @@
 print("Requires Python 3.10.8 or later.")
-print("Welcome to the PyCor v1.02.0")
+print("Welcome to the PyCor v1.02.2")
 print("Type help_pycor for help.")
 x = ""
 while x != "0":
@@ -7,7 +7,6 @@ while x != "0":
 
     cmd1 = "PyCor Objects: In device's memory. Will reset when restarted"
     if x == str("help_pycor"):
-        print("Note: Most commands was imported from v1.01.6 Build 1002 but it still counts")
         print("add_object - Adds a object to the list")
         print("list_objects - Shows the list of objects")
         print("add_key - Adds a key to the registry")
@@ -26,8 +25,65 @@ while x != "0":
         print("drive_change - Changes the disk drive directory")
         print("list_version - Shows all the versions of the program installed")
         print("change_program_cmds - Changes the commands of the program (except current built-in commands)")
-
-    elif x == str("list_version"):
+        print("change_pcr_regedit - Changes the registry values for a PCR file")
+        print("update_pcr - Updates the current PCR file")
+        print("repair_pcr - Repairs the current PCR file")
+        print("add_iso - Mounts a ISO file")
+        print("create_fsc - Creates a FSC file")
+        print("lts_edit - Edits a LTS module selected.")
+        print("exp_change - Changes the EXP module")
+        print("refresh_pycor - Passes a refresh")
+        print("exit - Exits the program")
+        print("exit_bst - Exits the BST")
+        print("exit_client - Exits the client")
+        print("PyCorMgr - Runs PyCorMgr.pcr")
+    elif x == str("PyCorMgr"):
+        print("----------------------------------------------------------------------------------------")
+        print("|                            PyCor Manager v1.0.0                                      |")
+        print("|                            Select a item to run                                      |")
+        print("|  [1] Exit   [2] Add file                                                             |")
+        print("|______________________________________________________________________________________|")
+        while x != "0":
+            x = input("$ ")
+            if x == "1":
+                print("Exiting...")
+                exit("PyCorMgr_" + "0")
+                exit(0)
+            if x == "2":
+                input("Name:")
+                input("Directory:")
+    elif x == str("exit_client"):
+        exit(0)
+    elif x == str("exit_bst"):
+        exit(1)
+    elif x == str("exit"):
+        exit(0)
+    elif x == str("refresh_pycor"):
+        print("Refreshed program.")
+    elif x == str("exp_change"):
+        input("Name: ")
+        print("Successfully changed module.")
+    elif x == str("lts_edit"):
+        input("Value: ")
+        print("Successfully changed values.")
+    elif x == str("create_fsc"):
+        input("Name: ")
+        print("Successfully created FSC file.")
+    elif x == str("change_pcr_regedit"):
+        input("Directory: ")
+        print("Successfully mounted ISO file.")
+    elif x == str("repair_pcr"):
+        print("Checking for errors...")
+        print("Repairing...")
+        print("Successfully repaired.")
+    elif x == str("update_pcr"):
+        print("Checking for updates")
+        print("Successfully updated current file")
+    elif x == str("change_pcr_regedit"):
+        input("Name: ")
+        input("Value: ")
+        print("Successfully changed values")
+    elif x == str("update_pcr"):
         print("Version: 1.02.0 Build 1003")
     elif x == str("change_program_cmds"):
         file_name = input("Name of extension/PCR file: ")
@@ -89,7 +145,8 @@ while x != "0":
     elif x == str("list_objects"):
         print(cmd1)
     elif x == str("add_key"):
-        input1 = input("WARNING: Adding keys without a reason might require a reinstall. Are you sure do you want to continue? ([Y]es or [N]o)")
+        input1 = input(
+            "WARNING: Adding keys without a reason might require a reinstall. Are you sure do you want to continue? ([Y]es or [N]o)")
         if input1 == "Y":
             key_name = input("Key name: ")
             key_type = input("Key type: ")
