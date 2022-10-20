@@ -1,12 +1,22 @@
 {
-  "name": "pycor",
-  "version": "12.01",
-  "description": "The official PyCor code package, ready for you to create efficient ideas.",
-  "modules": {
-    "github": [
-      "UnknownUser2222/pycor"
-    ]
+  "name": "@pycor/pycor",
+  "version": "1.1.2",
+  "description": "An official PyCor package for both Node.js and npm uses",
+  "main": "index.js",
+  "scripts": {
+    "test": "pycor run prg"
   },
-  "jetbrains_version": 2022.2,
-  "npm": true
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnknownUser2222/pycor.git"
+  },
+  "author": "UnknownUser2222",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UnknownUser2222/pycor/issues"
+  },
+  "homepage": "https://github.com/UnknownUser2222/pycor#readme",
+  "keywords": [
+    "pycor"
+  ]
 }
