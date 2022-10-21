@@ -1,3 +1,5 @@
+
+![](https://cdn.glitch.global/3139e343-d2eb-4303-adf0-30d4dd20cfc9/5944e70c-b2e6-42e0-b3d5-8d62b857cdb7.image.png?v=1666344573490)
 # About PyCor
 PyCor is a open-source Python program where you can add servers, all-Python Variables, registry keys, and more.
 Developed by UnknownUser2222 and collaborated with others, we are working hard despite what we do and our collaborators do.
