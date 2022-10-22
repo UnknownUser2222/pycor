@@ -1,5 +1,4 @@
-print("Requires Python 3.10.8 or later.")
-print("Welcome to the PyCor v1.02.2")
+print("Welcome to PyCor v1.04.0 // 1012")
 print("Type help_pycor for help.")
 x = ""
 while x != "0":
@@ -37,21 +36,44 @@ while x != "0":
         print("exit_bst - Exits the BST")
         print("exit_client - Exits the client")
         print("PyCorMgr - Runs PyCorMgr.pcr")
+        print("NOTE: New commands are now shown in PyCorMgr.pcr")
     elif x == str("PyCorMgr"):
         print("----------------------------------------------------------------------------------------")
-        print("|                            PyCor Manager v1.0.0                                      |")
+        print("|                            PyCor Manager v1.0.1                                      |")
         print("|                            Select a item to run                                      |")
-        print("|  [1] Exit   [2] Add file                                                             |")
+        print("|  [1] Exit   [2] Add file    [3] Add ISO   [4] Add root file  [5] Add package         |")
+        print("|  [6] Add shell root [7] Add config [8] Add PYW file                                  |")
         print("|______________________________________________________________________________________|")
         while x != "0":
-            x = input("$ ")
+            x = input("""app@pycor: ~su: github.com/UnknownUser2222/pycor 
+ $ """)
             if x == "1":
                 print("Exiting...")
-                exit("PyCorMgr_" + "0")
-                exit(0)
+                exit("""EXIT: At package line 3, exit confirmed by PyCorMgr.pcr, Codename is x-success
+Trace module became <eof> interrupted by exit key.
+PYCOR_MGR_0""")
+                exit(-193847291)
             if x == "2":
-                input("Name:")
-                input("Directory:")
+                input("Name: ")
+                input("Directory: ")
+            if x == "3":
+                input("Name: ")
+                input("Directory: ")
+            if x == "4":
+                input("Name: ")
+                input("Directory: ")
+            if x == "5":
+                input("Name: ")
+                input("Directory: ")
+            if x == "6":
+                input("Name: ")
+                input("Directory: ")
+            if x == "7":
+                input("Name: ")
+                input("Directory: ")
+            if x == "8":
+                input("Name: ")
+                input("Directory: ")
     elif x == str("exit_client"):
         exit(0)
     elif x == str("exit_bst"):
