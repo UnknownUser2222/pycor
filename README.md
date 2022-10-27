@@ -21,3 +21,8 @@ Updates every week
 ### For developer inquiries: adibsreviews@gmail.com
 ### ***Note that these emails are created by our collaborators. If you want to contact the official email, contact us at userunamed981@gmail.com because this email was created by the owner.***
 
+# Notes
+### OS support
+1. If you are in Windows 7, Vista, XP, 98 or 95, the next major release will be the final version (`v2.00.0`) compatible for these OSes.
+2. If you are in Windows 10, you will get the full version. Next minor release will also bring the full version for Windows 11.
+3. If you are in Windows PE (`Preinstallation Environment`), it will also bring support with this version via the command line.
