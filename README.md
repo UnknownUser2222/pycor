@@ -1,8 +1,3 @@
-Big note: Since the repo has been chosen for Hacktoberfest 2022, a 5-day break period will go on
-# Disabilities
-1. No updates and roadmap set to inactive.
-2. No disscussion and issues
-3. No pull request and limited downloads
 
 ![](https://cdn.glitch.global/3139e343-d2eb-4303-adf0-30d4dd20cfc9/5944e70c-b2e6-42e0-b3d5-8d62b857cdb7.image.png?v=1666344573490)
 # About PyCor
