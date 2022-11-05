@@ -3,7 +3,7 @@
 [![Status](https://img.shields.io/badge/status-operational-blue)](https://github.com/UnknownUser2222/pycor)
 [![Releases](https://img.shields.io/badge/version-check%20releases-orange)](https://github.com/UnknownUser2222/pycor/releases)
 
-# About PyCor
+
 # About PyCor
 PyCor is a open-source Python program where you can add servers, all-Python Variables, registry keys, and more.
 Developed by UnknownUser2222 and collaborated with others, we are working hard despite what we do and our collaborators do.
