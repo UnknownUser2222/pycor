@@ -1,9 +1,7 @@
-[![Contribution](https://img.shields.io/badge/security%20level-vulnerable-red)](https://github.com/UnknownUser2222/pycor)
-[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/UnknownUser2222/pycor/blob/master/license.md)
-[![Status](https://img.shields.io/badge/status-major%20outage-critical)](https://github.com/UnknownUser2222/pycor)
-[![Releases](https://img.shields.io/badge/version-check%20releases-lightblue)](https://github.com/UnknownUser2222/pycor/releases)
-
-Our security server `192.181.0.2` has been down. Any commit/PR will proceed. Do not commit without push access.
+[![Contribution](https://img.shields.io/badge/security%20level-high-green)](https://github.com/UnknownUser2222/pycor)
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/UnknownUser2222/pycor/blob/master/license.md)
+[![Status](https://img.shields.io/badge/status-operational-green)](https://github.com/UnknownUser2222/pycor)
+[![Releases](https://img.shields.io/badge/version-check%20releases-blue)](https://github.com/UnknownUser2222/pycor/releases)
 
 # About PyCor
 PyCor is a open-source Python program where you can add servers, all-Python Variables, registry keys, and more.
