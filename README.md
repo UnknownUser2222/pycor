@@ -35,3 +35,15 @@ Updates every week
 1. If you are in Windows 7, Vista, XP, 98 or 95, the next major release will be the final version (`v2.00.0`) compatible for these OSes.
 2. If you are in Windows 10, you will get the full version. Next minor release will also bring the full version for Windows 11.
 3. If you are in Windows PE (`Preinstallation Environment`), it will also bring support with this version via the command line.
+
+# FAQ (most asked)
+## 1. What is PyCor?
+Check #about-pycor (or at the very top) for info.
+## 2. How do I use PyCor?
+Type help_pycor for help. IF that does not work, contact us.
+## 3. Do I need to Install the PyCor API?
+Well, no. You can link it, but you can't "install" it.
+## 4. Do I have enough space and specs?
+Yes really, because you need Windows 95 and very low specs.
+## 5. Will PyCor get malware to my PC?
+Absolutely NO. No malware, spyware, viruses, trojans, adware is available in our command line unless a PUP enters `redirect` and with the link, so still be careful on the internet!
