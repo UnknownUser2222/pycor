@@ -6,7 +6,8 @@ On 11/09/2022, this is all the versions that recieve security updates and major 
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.10 +| :white_check_mark: |
+| 1.11  | :white_check_mark: |
+| 1.10  | :white_check_mark: |
 | 1.09  | :white_check_mark: |
 | 1.08  | :white_check_mark: |
 | 1.07  | :white_check_mark: |
