@@ -10,7 +10,7 @@
     "fastify": "^1.0.0",
     "handlebars": "^1.0.0",
     "@fastify/formbody": "^1.0.0",
-    "@fastify/static": "^1.0.0",
+    "@fastify/static": "^6.5.0",
     "@fastify/view": "^1.0.0",
     "node": "^14.20.0"
   },
