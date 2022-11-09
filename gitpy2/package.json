@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "fastify": "^1.0.0",
+    "fastify": "^4.9.2",
     "handlebars": "^1.0.0",
     "@fastify/formbody": "^1.0.0",
     "@fastify/static": "^1.0.0",
