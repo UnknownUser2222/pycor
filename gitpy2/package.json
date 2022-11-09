@@ -9,7 +9,7 @@
   "dependencies": {
     "fastify": "^4.9.2",
     "handlebars": "^4.7.7",
-    "@fastify/formbody": "^1.0.0",
+    "@fastify/formbody": "^7.3.0",
     "@fastify/static": "^6.5.0",
     "@fastify/view": "^1.0.0",
     "node": "^19.0.1"
