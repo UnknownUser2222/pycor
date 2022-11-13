@@ -1,10 +1,10 @@
 {
-  "name": "glitch-hello-node",
-  "version": "0.1.0",
-  "description": "A simple Node app built on fastify, instantly up and running. Built to be remixed on Glitch.com.",
-  "main": "server.js",
+  "name": "pycor",
+  "version": "1.12.2",
+  "description": "An official PyCor package for both Node.js and npm uses. Synced version with software version",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "pycor run prg"
   },
   "dependencies": {
     "fastify": "^4.9.2",
@@ -12,19 +12,21 @@
     "@fastify/formbody": "^7.3.0",
     "@fastify/static": "^6.5.0",
     "@fastify/view": "^7.1.2",
-    "node": "^19.0.1"
+    "node": "^19.0.1",
     "pycor": "^1.0.1"
   },
-  "engines": {
-    "node": "14.x"
-  },
   "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-node"
+    "type": "git",
+    "url": "git+https://github.com/UnknownUser2222/pycor.git"
   },
+  "author": "UnknownUser2222",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UnknownUser2222/pycor/issues"
+  },
+  "homepage": "https://github.com/UnknownUser2222/pycor#readme",
   "keywords": [
-    "node",
-    "glitch",
-    "express"
+    "pycor"
   ]
+
 }
