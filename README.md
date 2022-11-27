@@ -8,7 +8,10 @@ PyCor is a open-source Python program where you can add servers, all-Python Vari
 Developed by UnknownUser2222 and collaborated with others, we are working hard despite what we do and our collaborators do.
 The software is based on Python 3.10.8 and with other optional files.
 Updates every week
-
+# What you can do
+Producing fake ISO images are legal and use for commercial and private use is also allowed! 
+You can also do a modification to it IF NOT activation key leaked. This causes piracy and is illegal.
+Please make sure you MUST remove/hide the activation key or the installation password.
 # Product specs
   - Version: v1.16.0
  
