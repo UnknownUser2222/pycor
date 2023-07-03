@@ -11,7 +11,7 @@
     "handlebars": "^4.7.7",
     "@fastify/formbody": "^7.3.0",
     "@fastify/static": "^6.5.0",
-    "@fastify/view": "^7.1.2",
+    "@fastify/view": "^8.0.0",
     "node": "^19.0.1",
     "pycor": "^1.0.1"
   },
