@@ -12,7 +12,7 @@
     "@fastify/formbody": "^7.3.0",
     "@fastify/static": "^6.5.0",
     "@fastify/view": "^7.1.2",
-    "node": "^19.0.1",
+    "node": "^20.4.0",
     "pycor": "^1.0.1"
   },
   "repository": {
